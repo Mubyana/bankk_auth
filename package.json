@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Innovate: Digital Bank",
   "engines": {
-    "node": "15.10.0"
+    "node": "14.x"
   },
   "scripts": {
     "start": "node server.js"
@@ -14,7 +14,6 @@
     "express": "^4.15.3",
     "mongoose": "^5.0.0-rc1",
     "request": "^2.83.0",
-    "strong-supervisor": "^6.2.0",
     "uuid": "^3.1.0",
     "uuidv4": "^6.2.11"
   },
