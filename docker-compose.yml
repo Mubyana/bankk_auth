@@ -1,0 +1,14 @@
+version: '3.6'
+services:
+  web:
+    build:
+      context: ./
+      target: dev
+    volumes:
+      - .:/src
+    command: npm run start
+    ports:
+      - "3200:3200"
+    environment:
+      NODE_ENV: development
+      DEBUG: nodejs-docker-express:*
